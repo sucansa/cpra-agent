@@ -1,0 +1,35 @@
+- agent: Compliance Analyst
+  task: |
+    Analyze the recent updates to California privacy regulations under the CPRA/CCPA announced in 2024–2025,
+    including new rulemaking on automated decision-making, cybersecurity audits, sensitive data definitions,
+    and increased fines. Summarize the key changes and effective timelines.
+  expected_output: |
+    A concise summary covering:
+    - New regulation around automated decision-making systems (ADMS) effective July 2025
+    - Mandatory annual cybersecurity audits and risk assessments
+    - Expansion of "sensitive personal information" (e.g., neural data)
+    - Updated monetary thresholds and fines for non-compliance
+
+- agent: Compliance Specialist
+  task: |
+    Based on the Analyst’s summary, draft an internal privacy policy update that outlines how the organization
+    should comply with the new CPRA requirements—especially ADMS oversight, audit schedules, data handling,
+    and updated consumer rights protocols.
+  expected_output: |
+    A revised privacy policy/addendum that:
+    - Defines ADMS governance and explanation requirements
+    - Establishes annual risk assessment and audit procedures
+    - Updates definitions and handling of sensitive personal data
+    - Outlines changes to consumer opt-out, correction, and consent processes
+
+- agent: Enterprise Architect
+  task: |
+    Design technical and process controls to support the updated privacy policy. Include technical measures for
+    tracking automated model decisions, implementing audit logs, managing sensitive data, and enforcing revised
+    opt-in/out and consent flows.
+  expected_output: |
+    A technical control plan including:
+    - Logging and explainability mechanisms for ADMS decisions
+    - Secure data classification and storage for sensitive info
+    - Automated audit and risk-assessment tooling
+    - Consent capture and enforcement systems (e.g., cookie banners, GPC compliance)
